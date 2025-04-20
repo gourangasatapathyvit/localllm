@@ -1,0 +1,51 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment directories
+.env/
+.venv/
+conda_env/
+.conda/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore data files
+# *.xlsx
+# *.csv
+all_jobs - Copy.xlsx
+
+# Ignore model checkpoints
+checkpoint-*/
+*.bin
+*.safetensors
+*.json
+
+# Ignore specific directories
+offload/
+*.ipynb
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore large model files
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# Ignore dataset directories
+jobs_qa_dataset/
+phi2-jobs/
+SQLmodelbuild/
