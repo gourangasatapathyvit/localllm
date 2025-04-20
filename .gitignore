@@ -48,4 +48,4 @@ offload/
 # Ignore dataset directories
 jobs_qa_dataset/
 phi2-jobs/
-SQLmodelbuild/
+# SQLmodelbuild/
