@@ -31,7 +31,7 @@ checkpoint-*/
 
 # Ignore specific directories
 offload/
-*.ipynb
+# *.ipynb
 
 # Ignore IDE specific files
 .vscode/
